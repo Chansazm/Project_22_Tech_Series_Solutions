@@ -15,5 +15,5 @@ class solution(object):
 
     def generateParens(self, n):
         return self._generateHelper(n, 0, 0,'')
-print(solution().generateParens(3))
+print(solution().generateParens(9))
 #great
