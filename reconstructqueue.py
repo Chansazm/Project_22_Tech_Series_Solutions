@@ -1,7 +1,11 @@
 class solution(object):
     def reconstruct(self,nums):
         nums.sort(key = lambda x:(-x[0],x[1]))
-        return nums
+        
+        res = []
+        for person in nums:
+            res.insert(person[1],person)
+        return res
 
 
 
