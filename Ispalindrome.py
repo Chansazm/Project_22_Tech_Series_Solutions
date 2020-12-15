@@ -15,6 +15,11 @@ def ispalindrome(str):
             else:
                 return False
         return pal + odd + pal[::-1]
+    
+def simplePalindrome(str):
+    if str[::-1] == str:
+        return True
 
                 
 print(ispalindrome('wow'))
+print(simplePalindrome('wow'))
