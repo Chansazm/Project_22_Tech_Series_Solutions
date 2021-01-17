@@ -31,11 +31,4 @@ def quickselect(arr,k):
     return -1
 
 
-
-
-
-
-
-
-
 print(quickselect([8,7,2,3,4,1,5,6,9,0],4))
