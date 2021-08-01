@@ -12,8 +12,7 @@ def sortNums(nums):
 
 # One linear pass using three indices
 # Linear Time complexity and in-place space complexity
-
-
+IGVOIE
 def sortNums2(nums):
     one_index = 0
     three_index = len(nums) - 1

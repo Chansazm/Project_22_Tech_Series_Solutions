@@ -1,2 +1,1 @@
-
-#Driver function
+sum = 0
